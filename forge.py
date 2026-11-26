@@ -55,6 +55,14 @@ def main():
 
     print("[5/7] generating eval set")
     cases = generate_evals(agent, index)
+    seed = 2
+    while len(cases) < 20 and seed < 6:          # top up if some generations failed
+        more = generate_evals(agent, index, seed=seed)
+        seen = {c["question"] for c in cases}
+        cases += [c for c in more if c["question"] not in seen]
+        seed += 1
+    for i, c in enumerate(cases):
+        c["id"] = f"C{i + 1:02d}"
     save(args.out, "evals.json", cases)
 
     print("[6/7] running evals and optimizing (max 3 iterations)")
