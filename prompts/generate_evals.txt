@@ -1,0 +1,47 @@
+### ANSWERABLE
+Here is an excerpt from a document called {source}:
+
+{text}
+
+Write ONE question that a user could ask, whose answer is clearly stated in this excerpt.
+Do not say "the excerpt" or "the document" in the question.
+The question must be different from these already asked: {asked}
+Also list 1 to 3 key_facts: short exact phrases or numbers copied from the excerpt that a correct answer must contain.
+Return only JSON: {"question": "...", "key_facts": ["..."]}
+
+### MULTI
+Here are two excerpts from two different documents.
+
+EXCERPT A (from {source_a}):
+{text_a}
+
+EXCERPT B (from {source_b}):
+{text_b}
+
+Write ONE question that can only be answered fully by using BOTH excerpts.
+Do not say "the excerpt" or "the document" in the question.
+List 2 to 4 key_facts: short exact phrases or numbers copied from the excerpts, with at least one from each.
+Return only JSON: {"question": "...", "key_facts": ["..."]}
+
+### AMBIGUOUS
+Here is an excerpt from a document called {source}:
+
+{text}
+
+Write ONE vague, casual, badly phrased question, like a busy person typing quickly,
+whose answer is still in this excerpt. Do not copy exact words from the excerpt.
+List 1 to 3 key_facts: short exact phrases or numbers copied from the excerpt.
+Return only JSON: {"question": "...", "key_facts": ["..."]}
+
+### OUT_OF_SCOPE
+An assistant answers questions using ONLY these documents:
+{docs}
+
+Its scope: {scope}
+Topics it must refuse: {refuse}
+
+Write {n} different questions that users might ask but that this assistant MUST refuse,
+because the documents do not contain the answer.
+Mix two kinds: (1) totally unrelated questions (sports, cooking, politics, coding),
+(2) questions that sound close to the documents' subject but are not covered by them.
+Return only JSON: {"questions": ["...", "..."]}

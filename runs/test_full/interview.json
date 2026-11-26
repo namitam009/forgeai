@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Who are the primary users of this assistant? ",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "What is the expected tone of the assistant's responses? ",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "Are there any specific topics related to leave and travel policies that must be answered in detail? ",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "Are there any topics related to the CEO's salary that must be refused or answered briefly? ",
+    "answer": "No preference, use your best judgement."
+  }
+]

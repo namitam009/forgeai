@@ -1,0 +1,41 @@
+[
+  {
+    "iteration": 0,
+    "score": 0.312,
+    "passed": 5,
+    "total": 16,
+    "accepted": true,
+    "by_type": {
+      "answerable": "2/10",
+      "edge_multi_doc": "1/2",
+      "edge_ambiguous": "1/2",
+      "out_of_scope": "1/2"
+    }
+  },
+  {
+    "iteration": 1,
+    "score": 0.75,
+    "passed": 12,
+    "total": 16,
+    "accepted": true,
+    "by_type": {
+      "answerable": "8/10",
+      "edge_multi_doc": "2/2",
+      "edge_ambiguous": "1/2",
+      "out_of_scope": "1/2"
+    }
+  },
+  {
+    "iteration": 2,
+    "score": 0.625,
+    "passed": 10,
+    "total": 16,
+    "accepted": false,
+    "by_type": {
+      "answerable": "8/10",
+      "edge_multi_doc": "1/2",
+      "edge_ambiguous": "1/2",
+      "out_of_scope": "0/2"
+    }
+  }
+]

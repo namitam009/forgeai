@@ -1,0 +1,218 @@
+[
+  {
+    "type": "answerable",
+    "question": "How many days of maternity leave are granted?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "id": "C01"
+  },
+  {
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "id": "C02"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "id": "C03"
+  },
+  {
+    "type": "answerable",
+    "question": "How many days of sick leave are granted?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "10"
+    ],
+    "id": "C04"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "id": "C05"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "id": "C06"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "id": "C07"
+  },
+  {
+    "type": "answerable",
+    "question": "What is required for cab expenses to be reimbursed?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "id": "C08"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "id": "C09"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the duration of maternity leave?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "id": "C10"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the total duration of maternity and paternity leave combined?",
+    "expected_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days"
+    ],
+    "id": "C11"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the total amount of paid annual leave for full-time employees, and how many days of sick leave are required with a medical certificate?",
+    "expected_sources": [
+      "test_travel.txt",
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "24 days",
+      "10 days",
+      "2 days"
+    ],
+    "id": "C12"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "Cab expenses are reimbursed only when public transport is not available, what else should employees know?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "Cab expenses are reimbursed only when public transport is not available"
+    ],
+    "id": "C13"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "How many days of leave does the company offer for maternity and paternity?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days"
+    ],
+    "id": "C14"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Tell me about maternity leave.",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C15"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the latest sports news?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C16"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do you cook a perfect steak?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C17"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What are the main political parties in Brazil?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C18"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Can you explain the concept of object-oriented programming?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C19"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the history of coding languages?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C20"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What sports team won the Super Bowl last year?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C21"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do you make a delicious chocolate cake?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C22"
+  }
+]

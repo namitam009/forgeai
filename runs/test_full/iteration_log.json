@@ -1,0 +1,61 @@
+[
+  {
+    "iteration": 1,
+    "score_before": 0.312,
+    "score_after": 0.75,
+    "accepted": true,
+    "changes": [
+      {
+        "category": "hallucination",
+        "what": "appended rule to system prompt: Use ONLY facts that appear in the CONTEXT. Never add numbers, names or details that are not in the CONTEXT. If unsure, leave it out.",
+        "why": "answers contained unsupported claims",
+        "addresses": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C11",
+          "C14"
+        ]
+      },
+      {
+        "category": "prompt defect",
+        "what": "appended rule to system prompt: Do not mention any leave types other than those explicitly stated in the context (e.g., Paid Leave, Unpaid Leave, Annual Leave, Sick Leave, Maternity Leave, Paternity Leave, Parental Leave, etc.).",
+        "why": "agent answered out-of-scope questions or missed expected facts",
+        "addresses": [
+          "C15"
+        ]
+      }
+    ],
+    "failure_categories": {
+      "prompt defect": 1,
+      "hallucination": 10
+    }
+  },
+  {
+    "iteration": 2,
+    "score_before": 0.75,
+    "score_after": 0.625,
+    "accepted": false,
+    "changes": [
+      {
+        "category": "prompt defect",
+        "what": "appended rule to system prompt: Do not answer about any leave types other than those explicitly stated in the context (e.g., Paid Leave, Unpaid Leave, Annual Leave, Sick Leave, Maternity Leave, Paternity Leave, Parental Leave, etc.), nor about any travel types other than those mentioned in the context (e.g., Cab Expenses, Hotel Reimbursement, Economy Class Flights, Business Class Flights).",
+        "why": "agent answered out-of-scope questions or missed expected facts",
+        "addresses": [
+          "C07",
+          "C13",
+          "C15"
+        ]
+      }
+    ],
+    "failure_categories": {
+      "prompt defect": 3,
+      "hallucination": 1
+    }
+  }
+]

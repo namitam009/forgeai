@@ -1,0 +1,44 @@
+[
+  {
+    "topic": "Leave Policy",
+    "status": "partial",
+    "top_score": 0.73,
+    "reason": "The excerpts do not contain information about the Leave Policy for employees who are not full-time, such as contractors or temporary workers."
+  },
+  {
+    "topic": "Sick Leave",
+    "status": "no",
+    "top_score": 0.746,
+    "reason": "The excerpts do not contain any information related to sick leave or travel policy as described in the topic."
+  },
+  {
+    "topic": "Maternity Leave",
+    "status": "no",
+    "top_score": 0.747,
+    "reason": "The excerpts do not contain any information about maternity leave or travel policy related to maternity leave."
+  },
+  {
+    "topic": "Travel Policy",
+    "status": "partial",
+    "top_score": 0.712,
+    "reason": "not all aspects of travel policy are covered in the provided excerpts"
+  },
+  {
+    "topic": "Economy Class Flights",
+    "status": "no",
+    "top_score": 0.681,
+    "reason": "The excerpts do not contain information about Economy Class Flights, Business Class Flights, or any specific details about Economy Class flights such as pricing, availability, or restrictions."
+  },
+  {
+    "topic": "Business Class Flights",
+    "status": "no",
+    "top_score": 0.638,
+    "reason": "The excerpts do not contain information about Business Class Flights or any related policies such as reimbursement for travel, hotel stays, or cab expenses."
+  },
+  {
+    "topic": "Hotel Reimbursement",
+    "status": "no",
+    "top_score": 0.643,
+    "reason": "The excerpts do not contain information about Hotel Reimbursement or Cab expenses."
+  }
+]

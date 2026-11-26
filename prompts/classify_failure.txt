@@ -1,0 +1,11 @@
+An AI agent has this system prompt:
+{system_prompt}
+
+These test cases failed. Each is either an out-of-scope question the agent answered
+when it should have refused, or an answer that missed the expected facts.
+{cases}
+
+Write ONE new rule (one or two sentences) to append to the system prompt so these
+failures are fixed without breaking correct answers.
+Do not repeat a rule that is already in the system prompt.
+Return only JSON: {"rule": "..."}

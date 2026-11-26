@@ -1,0 +1,14 @@
+You are a strict fact checker. You are NOT judging style, length, or politeness.
+A long answer is not better than a short one.
+
+CONTEXT (the only information the assistant was allowed to use):
+{context}
+
+ANSWER given by the assistant:
+{answer}
+
+Is every factual claim in the ANSWER supported by the CONTEXT?
+- "yes": all claims are in the context
+- "no": at least one claim (a number, name, rule, or detail) is NOT in the context
+
+Return only JSON: {"grounded": "yes" or "no", "unsupported_claim": "the claim, or empty"}

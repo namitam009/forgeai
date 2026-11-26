@@ -1,0 +1,175 @@
+[
+  {
+    "type": "answerable",
+    "question": "How many days of sick leave do full-time employees get?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "10"
+    ],
+    "id": "C01"
+  },
+  {
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "id": "C02"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement for stays in metro cities?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "id": "C03"
+  },
+  {
+    "type": "answerable",
+    "question": "How many days of maternity leave do employees get?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "id": "C04"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500 rupees"
+    ],
+    "id": "C05"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "id": "C06"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement for stays outside metro cities?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "5000"
+    ],
+    "id": "C07"
+  },
+  {
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "id": "C08"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "id": "C09"
+  },
+  {
+    "type": "answerable",
+    "question": "How many days of leave does maternity leave cover?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "id": "C10"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the total duration of maternity leave and how many days of sick leave require a medical certificate?",
+    "expected_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "2 days"
+    ],
+    "id": "C11"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the total number of days of maternity leave and how many days of sick leave does an employee get?",
+    "expected_sources": [
+      "test_travel.txt",
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days",
+      "10 days"
+    ],
+    "id": "C12"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "Cab expenses are reimbursed when public transport is unavailable, what else should employees know?",
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "Cab expenses are reimbursed only when public transport is not available"
+    ],
+    "id": "C13"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "How many days of leave does each full-time employee get?",
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "24 days"
+    ],
+    "id": "C14"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Tell me about Maternity Leave.",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C15"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Tell me about Sick Leave.",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C16"
+  }
+]

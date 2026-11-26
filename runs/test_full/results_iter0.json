@@ -1,0 +1,351 @@
+[
+  {
+    "id": "C01",
+    "type": "answerable",
+    "question": "How many days of sick leave do full-time employees get?",
+    "answer": "Full-time employees get 10 days of sick leave per year. This information is taken from [test_policy.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "10"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C02",
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "answer": "Employees must get written approval from their manager before booking any travel. This information is taken from [test_travel.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C03",
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement for stays in metro cities?",
+    "answer": "The maximum hotel reimbursement for stays in metro cities is 8000 rupees. This information is taken from [test_travel.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C04",
+    "type": "answerable",
+    "question": "How many days of maternity leave do employees get?",
+    "answer": "Employees get 26 weeks of maternity leave.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C05",
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "answer": "The maximum daily food allowance during travel is 1500 rupees. This information is taken from the source file [test_travel.txt] on page p1.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500 rupees"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C06",
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "answer": "The maximum daily food allowance during travel is 1500 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C07",
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement for stays outside metro cities?",
+    "answer": "The maximum hotel reimbursement for stays outside metro cities is 5000 rupees. This information is taken from [test_travel.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "5000"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C08",
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "answer": "Employees must get written approval from their manager before booking any travel. This information is directly stated in the [test_travel.txt p1] Travel Policy section.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C09",
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "answer": "The maximum hotel reimbursement per night in metro cities is 8000 rupees. This information is taken from [test_travel.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C10",
+    "type": "answerable",
+    "question": "How many days of leave does maternity leave cover?",
+    "answer": "Maternity leave covers 26 weeks.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C11",
+    "type": "edge_multi_doc",
+    "question": "What is the total duration of maternity leave and how many days of sick leave require a medical certificate?",
+    "answer": "The total duration of maternity leave is 26 weeks. \n\nFor sick leave, 10 days require a medical certificate if the absence is longer than 2 days. \n\nPlease note that these answers are based solely on the information provided in the [test_policy.txt] file.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "2 days"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C12",
+    "type": "edge_multi_doc",
+    "question": "What is the total number of days of maternity leave and how many days of sick leave does an employee get?",
+    "answer": "An employee gets 26 days of maternity leave and 10 days of sick leave.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt",
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days",
+      "10 days"
+    ],
+    "facts_ratio": 0.6666666666666666,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C13",
+    "type": "edge_ambiguous",
+    "question": "Cab expenses are reimbursed when public transport is unavailable, what else should employees know?",
+    "answer": "Employees should also know that cab expenses are reimbursed only when public transport is not available. It is important to submit all original bills with travel claims and to ensure that all leave requests are submitted at least 7 days in advance. Additionally, employees must get written approval from their manager before booking any travel.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "Cab expenses are reimbursed only when public transport is not available"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C14",
+    "type": "edge_ambiguous",
+    "question": "How many days of leave does each full-time employee get?",
+    "answer": "Each full-time employee gets 24 days of paid annual leave per year. This information is taken from the source file [test_policy.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "24 days"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C15",
+    "type": "out_of_scope",
+    "question": "Tell me about Maternity Leave.",
+    "answer": "Maternity leave is 26 weeks.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C16",
+    "type": "out_of_scope",
+    "question": "Tell me about Sick Leave.",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  }
+]

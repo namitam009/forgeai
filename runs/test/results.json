@@ -1,0 +1,431 @@
+[
+  {
+    "id": "C01",
+    "type": "answerable",
+    "question": "How many days of maternity leave are granted?",
+    "answer": "Maternity leave is 26 weeks.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C02",
+    "type": "answerable",
+    "question": "What must employees do before booking any travel?",
+    "answer": "Employees must get written approval from their manager before booking any travel.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C03",
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "answer": "The maximum hotel reimbursement per night in metro cities is 8000 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C04",
+    "type": "answerable",
+    "question": "How many days of sick leave are granted?",
+    "answer": "10 days per year.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "10"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C05",
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "answer": "The maximum daily food allowance during travel is 1500 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C06",
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "answer": "The maximum daily food allowance during travel is 1500 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C07",
+    "type": "answerable",
+    "question": "What is the maximum hotel reimbursement per night in metro cities?",
+    "answer": "The maximum hotel reimbursement per night in metro cities is 8000 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "8000 rupees"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C08",
+    "type": "answerable",
+    "question": "What is required for cab expenses to be reimbursed?",
+    "answer": "Cab expenses are reimbursed only when public transport is not available.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "get written approval from their manager"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C09",
+    "type": "answerable",
+    "question": "What is the maximum daily food allowance during travel?",
+    "answer": "The maximum daily food allowance during travel is 1500 rupees.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "1500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C10",
+    "type": "answerable",
+    "question": "What is the duration of maternity leave?",
+    "answer": "Maternity leave is 26 weeks.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C11",
+    "type": "edge_multi_doc",
+    "question": "What is the total duration of maternity and paternity leave combined?",
+    "answer": "The total duration of maternity and paternity leave combined is 26 weeks for maternity leave and 10 days for paternity leave.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C12",
+    "type": "edge_multi_doc",
+    "question": "What is the total amount of paid annual leave for full-time employees, and how many days of sick leave are required with a medical certificate?",
+    "answer": "The total amount of paid annual leave for full-time employees is 24 days. For sick leave, a medical certificate is required for any absence longer than 2 days, and the number of days required is 10 days.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt",
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "24 days",
+      "10 days",
+      "2 days"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C13",
+    "type": "edge_ambiguous",
+    "question": "Cab expenses are reimbursed only when public transport is not available, what else should employees know?",
+    "answer": "Employees must get written approval from their manager before booking any travel.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_travel.txt"
+    ],
+    "key_facts": [
+      "Cab expenses are reimbursed only when public transport is not available"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C14",
+    "type": "edge_ambiguous",
+    "question": "How many days of leave does the company offer for maternity and paternity?",
+    "answer": "The company offers 26 weeks of maternity leave and 10 days of paternity leave.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [
+      "test_policy.txt"
+    ],
+    "key_facts": [
+      "26 weeks",
+      "10 days"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C15",
+    "type": "out_of_scope",
+    "question": "Tell me about maternity leave.",
+    "answer": "[test_policy.txt p1] Leave Policy\nAll full-time employees get 24 days of paid annual leave per year.\nSick leave is 10 days per year and needs a medical certificate if longer than 2 days.\nMaternity leave is 26 weeks. Paternity leave is 10 days.\nLeave requests must be submitted to the manager at least 7 days in advance.",
+    "refused": false,
+    "retrieved_sources": [
+      "test_policy.txt",
+      "test_travel.txt"
+    ],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": false,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C16",
+    "type": "out_of_scope",
+    "question": "What is the latest sports news?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C17",
+    "type": "out_of_scope",
+    "question": "How do you cook a perfect steak?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C18",
+    "type": "out_of_scope",
+    "question": "What are the main political parties in Brazil?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C19",
+    "type": "out_of_scope",
+    "question": "Can you explain the concept of object-oriented programming?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C20",
+    "type": "out_of_scope",
+    "question": "What is the history of coding languages?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C21",
+    "type": "out_of_scope",
+    "question": "What sports team won the Super Bowl last year?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  },
+  {
+    "id": "C22",
+    "type": "out_of_scope",
+    "question": "How do you make a delicious chocolate cake?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "passed": true,
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null
+  }
+]

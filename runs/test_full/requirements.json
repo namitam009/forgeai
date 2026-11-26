@@ -1,0 +1,24 @@
+{
+  "scope": "The AI agent will answer questions about leave and travel policies for employees and provide brief information about the CEO's salary. NOTE: the agent must NOT answer about: Sick Leave, Maternity Leave, Economy Class Flights, Business Class Flights, Hotel Reimbursement.",
+  "audience": "Employees of the organization",
+  "tone": "Professional and informative",
+  "must_answer_topics": [
+    "Leave Policy",
+    "Travel Policy"
+  ],
+  "must_refuse_topics": [
+    "CEO's Salary",
+    "Sick Leave (not covered by the documents)",
+    "Maternity Leave (not covered by the documents)",
+    "Economy Class Flights (not covered by the documents)",
+    "Business Class Flights (not covered by the documents)",
+    "Hotel Reimbursement (not covered by the documents)"
+  ],
+  "ungrounded_topics": [
+    "Sick Leave",
+    "Maternity Leave",
+    "Economy Class Flights",
+    "Business Class Flights",
+    "Hotel Reimbursement"
+  ]
+}
