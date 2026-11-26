@@ -1,0 +1,16 @@
+You are designing an AI agent from a requirements document.
+
+REQUIREMENTS:
+{requirements}
+
+TOOLS AVAILABLE (attach only what the requirements truly need, usually 0 to 2):
+{tools}
+
+Write:
+- "name": a short name for the agent
+- "system_prompt": a clear system prompt of 5 to 8 sentences, written to the agent as "You are ...".
+  It must state the audience, the tone, the topics it answers, and the topics it refuses.
+  Say that it answers ONLY from the provided context.
+- "tools": list of tool names to attach, chosen only from the list above. Use [] if none are needed.
+
+Return only JSON.
