@@ -1,0 +1,14 @@
+You are checking whether documents can support a topic.
+
+TOPIC: {topic}
+
+DOCUMENT EXCERPTS:
+{context}
+
+Can the topic be answered fully using ONLY these excerpts?
+- "yes": the excerpts clearly contain the information
+- "partial": some of the information is there, but not all
+- "no": the excerpts do not contain the information
+
+Be strict. Do not use your own knowledge.
+Return only JSON: {"status": "yes" or "partial" or "no", "reason": "one short sentence"}

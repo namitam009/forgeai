@@ -1,0 +1,21 @@
+You are writing a requirements document for an AI agent.
+
+BRIEF:
+{brief}
+
+DOCUMENTS AVAILABLE:
+{docs}
+
+INTERVIEW (questions and the requester's answers):
+{answers}
+
+Write the requirements as JSON with exactly these keys:
+- "scope": one or two sentences on what the agent does
+- "audience": who will use the agent
+- "tone": how the agent should speak
+- "must_answer_topics": list of short topic strings the agent must be able to answer
+- "must_refuse_topics": list of short topic strings the agent must refuse
+
+Include in must_answer_topics everything the brief asks for, even if you think the
+documents may not cover it. Do not invent topics the requester did not ask for.
+Return only JSON.
