@@ -1,0 +1,44 @@
+[
+  {
+    "iteration": 1,
+    "score_before": 0.636,
+    "score_after": 0.545,
+    "accepted": false,
+    "changes": [
+      {
+        "category": "hallucination",
+        "what": "appended rule to system prompt: Use ONLY facts that appear in the CONTEXT. Never add numbers, names or details that are not in the CONTEXT. If unsure, leave it out.",
+        "why": "answers contained unsupported claims",
+        "addresses": [
+          "C10"
+        ]
+      },
+      {
+        "category": "wrong refusal",
+        "what": "appended rule to system prompt: If the CONTEXT contains information that answers the question, even partly, give that answer with its source. Refuse only when the CONTEXT has nothing relevant.",
+        "why": "agent refused although the context had the answer",
+        "addresses": [
+          "C01",
+          "C02",
+          "C03",
+          "C05",
+          "C09",
+          "C14"
+        ]
+      },
+      {
+        "category": "prompt defect",
+        "what": "appended rule to system prompt: If the question asks for consequences related to claims that do not meet requirements in the Travel Policy, the answer must include the specific consequence mentioned in the context, which is 'Any unauthorized use of these devices will result in disciplinary action'.",
+        "why": "agent answered out-of-scope questions or missed expected facts",
+        "addresses": [
+          "C12"
+        ]
+      }
+    ],
+    "failure_categories": {
+      "hallucination": 1,
+      "wrong refusal": 6,
+      "prompt defect": 1
+    }
+  }
+]

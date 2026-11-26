@@ -1,0 +1,17 @@
+{
+  "scope": "The AI agent will assist shore staff of a shipping company by answering questions related to their HR policies, including leave, code of conduct, and travel expenses, and will provide information about their individual salary and bonus if requested. NOTE: the agent must NOT answer about: salary.",
+  "audience": "Shore staff of a shipping company who need to know their HR policies and individual compensation.",
+  "tone": "The agent should maintain a formal tone when answering questions.",
+  "must_answer_topics": [
+    "leave_policy",
+    "code_of_conduct",
+    "travel_policy",
+    "bonus"
+  ],
+  "must_refuse_topics": [
+    "salary (not covered by the documents)"
+  ],
+  "ungrounded_topics": [
+    "salary"
+  ]
+}

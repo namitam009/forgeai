@@ -1,0 +1,428 @@
+[
+  {
+    "id": "C01",
+    "type": "answerable",
+    "question": "What happens if shore staff use work devices for personal activities?",
+    "answer": "Any unauthorized use of these devices will result in disciplinary action.",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Any unauthorized use of these devices will result in disciplinary action."
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C02",
+    "type": "answerable",
+    "question": "What will happen if someone retaliates against a person who reports harassment?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "immediate termination"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C03",
+    "type": "answerable",
+    "question": "What is the frequency at which the travel policy is reviewed?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "code_of_conduct.txt",
+      "travel_policy.txt"
+    ],
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "annually"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C04",
+    "type": "answerable",
+    "question": "What are the working hours for shore staff?",
+    "answer": "The working hours for shore staff are from 06:00 AM to 06:00 PM, Monday to Friday.",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt",
+      "leave_policy.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "06:00 AM to 06:00 PM"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C05",
+    "type": "answerable",
+    "question": "When are changes to the code of conduct communicated to shore staff?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "annually",
+      "communicated to all shore staff"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C06",
+    "type": "answerable",
+    "question": "What is the only approved flight class for business travel?",
+    "answer": "Business class is the only approved class of travel for all business trips.",
+    "refused": false,
+    "retrieved_sources": [
+      "travel_policy.txt"
+    ],
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "Business class"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C07",
+    "type": "answerable",
+    "question": "Who approves leave requests?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "leave_policy.txt",
+      "travel_policy.txt"
+    ],
+    "expected_sources": [
+      "leave_policy.txt"
+    ],
+    "key_facts": [
+      "Human Resources Department"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C08",
+    "type": "answerable",
+    "question": "What are the possible disciplinary actions for non-compliance with the code of conduct?",
+    "answer": "9. DISCIPLINARY ACTION: Disciplinary action may include warnings, suspension, or termination of employment. The severity of the action will be determined by the nature and severity of the offense. The severity of the action will be determined by the nature and severity of the offense. \n[code_of_conduct.txt p1]",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "warning",
+      "suspension",
+      "termination of employment"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C09",
+    "type": "answerable",
+    "question": "What happens if shore staff use company devices for unauthorized activities?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Any unauthorized use of these devices will result in disc"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": null,
+    "passed": false
+  },
+  {
+    "id": "C10",
+    "type": "answerable",
+    "question": "What is the maximum hotel expense per night?",
+    "answer": "The maximum hotel expense per night is Rs. 2000. This information is sourced from [travel_policy.txt p1].",
+    "refused": false,
+    "retrieved_sources": [
+      "travel_policy.txt"
+    ],
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "Rs. 2000"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C11",
+    "type": "edge_multi_doc",
+    "question": "What is the effective date of the leave policy?",
+    "answer": "The effective date of the leave policy is January 1, 2023.",
+    "refused": false,
+    "retrieved_sources": [
+      "leave_policy.txt"
+    ],
+    "expected_sources": [
+      "leave_policy.txt",
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Policy Effective Date:",
+      "January 1, 2023"
+    ],
+    "facts_ratio": 0.5,
+    "retrieval_ok": false,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C12",
+    "type": "edge_multi_doc",
+    "question": "What is the consequence for unauthorized use of devices in the Code of Conduct and for claims that do not meet requirements in the Travel Policy?",
+    "answer": "(tool error: Extra data: line 3 column 1 (char 39))",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt",
+      "travel_policy.txt"
+    ],
+    "expected_sources": [
+      "travel_policy.txt",
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "claims within this period may result in delays in reimbursement",
+      "Any unauthorized use of these devices will result in disciplinary action"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": false,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C13",
+    "type": "edge_ambiguous",
+    "question": "When do they review the code of conduct?",
+    "answer": "[code_of_conduct.txt p1] This code of conduct will be reviewed annually and updated as necessary. Any changes will be communicated to all shore staff.",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "annually",
+      "communicated to all shore staff"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C14",
+    "type": "edge_ambiguous",
+    "question": "What happens if shore staff misuse company devices?",
+    "answer": "Any unauthorized use of these devices will result in disciplinary action.",
+    "refused": false,
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "may face legal action"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C15",
+    "type": "out_of_scope",
+    "question": "Tell me about salary.",
+    "answer": "I'm sorry, I can't answer that.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C16",
+    "type": "out_of_scope",
+    "question": "What is the latest sports news?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C17",
+    "type": "out_of_scope",
+    "question": "How do you make a perfect omelette?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C18",
+    "type": "out_of_scope",
+    "question": "Who is the president of Brazil?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C19",
+    "type": "out_of_scope",
+    "question": "What is the difference between Python and Java?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C20",
+    "type": "out_of_scope",
+    "question": "What is the history of the United Nations?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C21",
+    "type": "out_of_scope",
+    "question": "What is the latest trending topic on TikTok?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C22",
+    "type": "out_of_scope",
+    "question": "What is the current World Cup soccer standings?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  }
+]

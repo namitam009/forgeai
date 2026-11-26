@@ -1,0 +1,224 @@
+[
+  {
+    "type": "answerable",
+    "question": "What is the minimum charge for orders below 0 USD?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "100 USD"
+    ],
+    "id": "C01"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the minimum order value for products?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "100 USD"
+    ],
+    "id": "C02"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the governing law for this agreement?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "governed by and construed in accordance with the laws of the State of California"
+    ],
+    "id": "C03"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the additional cost for expedited shipping orders over 100 USD?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "10 U"
+    ],
+    "id": "C04"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the discount rate for orders over 500 USD?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "5%",
+      "500"
+    ],
+    "id": "C05"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the interest rate for late payments over USD 5000?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "5%",
+      "USD 5000"
+    ],
+    "id": "C06"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the contact information for Beta Ocean Traders?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "info@betaoceantraders.com",
+      "+1 (123) 456-7890"
+    ],
+    "id": "C07"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the minimum order value for Beta Ocean Traders?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "USD 500"
+    ],
+    "id": "C08"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the warranty period for spare parts sold by Beta Ocean Traders?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "12-month"
+    ],
+    "id": "C09"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the additional cost for expedited shipping?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "additional cost of 10 USD"
+    ],
+    "id": "C10"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the discount policy for orders over 500 USD and how does it relate to shipping costs for returns?",
+    "expected_sources": [
+      "supplier_beta.txt",
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "applied to returned items",
+      "5%",
+      "not cumulative",
+      "orders under 500 USD are not eligible for discounts"
+    ],
+    "id": "C11"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the minimum order value for a bulk order to qualify for the 5% discount offered by Alpha Marine Supplies?",
+    "expected_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "500 USD",
+      "5%"
+    ],
+    "id": "C12"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "What's the cost for orders over 100 USD?",
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "10 USD",
+      "100 USD"
+    ],
+    "id": "C13"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "What's the surcharge for urgent deliveries and how long is the warranty?",
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "20%",
+      "5 business days",
+      "12-month"
+    ],
+    "id": "C14"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Tell me about stock levels.",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C15"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the current World Cup final score?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C16"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Can you suggest a recipe for a perfect omelette?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C17"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Who is the current Prime Minister of France?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C18"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do you write a function in Python to find the maximum value in an array?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C19"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What are the main political parties in Brazil?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C20"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the latest book by J.K. Rowling?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C21"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the most popular sport in Australia?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C22"
+  }
+]

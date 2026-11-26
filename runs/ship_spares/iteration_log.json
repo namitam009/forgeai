@@ -1,0 +1,61 @@
+[
+  {
+    "iteration": 1,
+    "score_before": 0.773,
+    "score_after": 0.909,
+    "accepted": true,
+    "changes": [
+      {
+        "category": "hallucination",
+        "what": "appended rule to system prompt: Use ONLY facts that appear in the CONTEXT. Never add numbers, names or details that are not in the CONTEXT. If unsure, leave it out.",
+        "why": "answers contained unsupported claims",
+        "addresses": [
+          "C02",
+          "C05",
+          "C10"
+        ]
+      },
+      {
+        "category": "wrong refusal",
+        "what": "appended rule to system prompt: If the CONTEXT contains information that answers the question, even partly, give that answer with its source. Refuse only when the CONTEXT has nothing relevant.",
+        "why": "agent refused although the context had the answer",
+        "addresses": [
+          "C01"
+        ]
+      },
+      {
+        "category": "prompt defect",
+        "what": "appended rule to system prompt: Do not provide information about shipping costs for returns or any discounts not directly related to part prices, lead times, or supplier terms. Adhere strictly to the provided topics: part prices, lead times, supplier terms, and calculate order totals.",
+        "why": "agent answered out-of-scope questions or missed expected facts",
+        "addresses": [
+          "C11"
+        ]
+      }
+    ],
+    "failure_categories": {
+      "wrong refusal": 1,
+      "prompt defect": 1,
+      "hallucination": 3
+    }
+  },
+  {
+    "iteration": 2,
+    "score_before": 0.909,
+    "score_after": 0.773,
+    "accepted": false,
+    "changes": [
+      {
+        "category": "prompt defect",
+        "what": "appended rule to system prompt: Do not provide information about shipping costs or discounts not directly related to part prices, lead times, or supplier terms. Adhere strictly to the provided topics: part prices, lead times, supplier terms, and calculate order totals. Use ONLY facts that appear in the CONTEXT. Never provide information about shipping costs for returns or any discounts not directly related to part prices, lead times, or supplier terms.",
+        "why": "agent answered out-of-scope questions or missed expected facts",
+        "addresses": [
+          "C03",
+          "C10"
+        ]
+      }
+    ],
+    "failure_categories": {
+      "prompt defect": 2
+    }
+  }
+]

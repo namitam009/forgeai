@@ -1,0 +1,16 @@
+part_no,part_name,price_usd,supplier,stock,lead_time_days
+SP-1000,Fuel injector,420,Beta Ocean Traders,9,14
+SP-1001,Piston ring set,310,Alpha Marine Supplies,4,21
+SP-1002,Turbocharger cartridge,2850,Alpha Marine Supplies,23,21
+SP-1003,Cylinder liner,1190,Alpha Marine Supplies,32,5
+SP-1004,Fuel pump,760,Alpha Marine Supplies,5,14
+SP-1005,Oil filter,38,Beta Ocean Traders,4,5
+SP-1006,Air cooler,1640,Alpha Marine Supplies,35,14
+SP-1007,Exhaust valve,295,Alpha Marine Supplies,36,3
+SP-1008,Bearing shell,175,Alpha Marine Supplies,40,21
+SP-1009,Gasket kit,85,Alpha Marine Supplies,36,21
+SP-1010,Starting air valve,530,Beta Ocean Traders,3,5
+SP-1011,Lube oil pump,980,Alpha Marine Supplies,35,5
+SP-1012,Thermostat valve,140,Beta Ocean Traders,26,5
+SP-1013,Sea water pump seal,62,Alpha Marine Supplies,36,7
+SP-1014,Governor actuator,2200,Alpha Marine Supplies,6,21

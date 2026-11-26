@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "leave_policy",
+    "status": "partial",
+    "top_score": 0.73,
+    "reason": "not all leave types and their specific details are covered"
+  },
+  {
+    "topic": "code_of_conduct",
+    "status": "partial",
+    "top_score": 0.715,
+    "reason": "The excerpts do not contain information about all aspects of a code of conduct, such as specific policies on harassment, discrimination, or diversity and inclusion."
+  },
+  {
+    "topic": "travel_policy",
+    "status": "partial",
+    "top_score": 0.745,
+    "reason": "not all aspects of travel policy are covered"
+  },
+  {
+    "topic": "salary",
+    "status": "no",
+    "top_score": 0.489,
+    "reason": "best retrieval score 0.49 is below 0.5. The excerpts do not contain information about salary policies or benefits related to salary."
+  },
+  {
+    "topic": "bonus",
+    "status": "partial",
+    "top_score": 0.512,
+    "reason": "Some of the information is there but not all relevant topics are covered"
+  }
+]

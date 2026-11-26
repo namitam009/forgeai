@@ -1,0 +1,439 @@
+[
+  {
+    "id": "C01",
+    "type": "answerable",
+    "question": "What is the minimum charge for orders below 0 USD?",
+    "answer": "The minimum charge for orders below 100 USD is 100 USD.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "100 USD"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C02",
+    "type": "answerable",
+    "question": "What is the minimum order value for products?",
+    "answer": "Minimum order value is 100 USD. Orders below this value will be charged a minimum of 100 USD to cover shipping and handling costs. Minimum order value for Beta Ocean Traders is USD 500. Orders below this value will be charged at a minimum of USD 500 to cover shipping and handling costs.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "100 USD"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C03",
+    "type": "answerable",
+    "question": "What is the governing law for this agreement?",
+    "answer": "The governing law for this agreement is the laws of the State of California.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "governed by and construed in accordance with the laws of the State of California"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C04",
+    "type": "answerable",
+    "question": "What is the additional cost for expedited shipping orders over 100 USD?",
+    "answer": "The additional cost for expedited shipping orders over 100 USD is 10 USD.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "10 U"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C05",
+    "type": "answerable",
+    "question": "What is the discount rate for orders over 500 USD?",
+    "answer": "The discount rate for orders over 500 USD is 5%.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "5%",
+      "500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C06",
+    "type": "answerable",
+    "question": "What is the interest rate for late payments over USD 5000?",
+    "answer": "The interest rate for late payments over USD 5000 is 5% per month.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "5%",
+      "USD 5000"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C07",
+    "type": "answerable",
+    "question": "What is the contact information for Beta Ocean Traders?",
+    "answer": "The contact information for Beta Ocean Traders is as follows:\n- Email: info@betaoceantraders.com\n- Phone: +1 (123) 456-7890",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "info@betaoceantraders.com",
+      "+1 (123) 456-7890"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C08",
+    "type": "answerable",
+    "question": "What is the minimum order value for Beta Ocean Traders?",
+    "answer": "The minimum order value for Beta Ocean Traders is USD 500.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "USD 500"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C09",
+    "type": "answerable",
+    "question": "What is the warranty period for spare parts sold by Beta Ocean Traders?",
+    "answer": "The warranty period for spare parts sold by Beta Ocean Traders is 12 months from the date of delivery.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "12-month"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C10",
+    "type": "answerable",
+    "question": "What is the additional cost for expedited shipping?",
+    "answer": "The additional cost for expedited shipping is 10 USD.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "additional cost of 10 USD"
+    ],
+    "facts_ratio": 0.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": false
+  },
+  {
+    "id": "C11",
+    "type": "edge_multi_doc",
+    "question": "What is the discount policy for orders over 500 USD and how does it relate to shipping costs for returns?",
+    "answer": "Orders over 500 USD are eligible for a 5% discount at the time of order. This discount is not cumulative and must be applied at the time of order. Orders under 500 USD are not eligible for discounts. For returns, shipping costs are non-refundable.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt",
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "applied to returned items",
+      "5%",
+      "not cumulative",
+      "orders under 500 USD are not eligible for discounts"
+    ],
+    "facts_ratio": 0.75,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C12",
+    "type": "edge_multi_doc",
+    "question": "What is the minimum order value for a bulk order to qualify for the 5% discount offered by Alpha Marine Supplies?",
+    "answer": "The minimum order value for a bulk order to qualify for the 5% discount offered by Alpha Marine Supplies is 500 USD.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "500 USD",
+      "5%"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C13",
+    "type": "edge_ambiguous",
+    "question": "What's the cost for orders over 100 USD?",
+    "answer": "The cost for orders over 100 USD is eligible for expedited shipping at an additional cost of 10 USD.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_alpha.txt"
+    ],
+    "key_facts": [
+      "10 USD",
+      "100 USD"
+    ],
+    "facts_ratio": 1.0,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C14",
+    "type": "edge_ambiguous",
+    "question": "What's the surcharge for urgent deliveries and how long is the warranty?",
+    "answer": "Urgent deliveries are subject to a 20% surcharge. The warranty period is 12 months from the date of delivery.",
+    "refused": false,
+    "retrieved_sources": [
+      "supplier_alpha.txt",
+      "supplier_beta.txt"
+    ],
+    "expected_sources": [
+      "supplier_beta.txt"
+    ],
+    "key_facts": [
+      "20%",
+      "5 business days",
+      "12-month"
+    ],
+    "facts_ratio": 0.6666666666666666,
+    "retrieval_ok": true,
+    "grounded": true,
+    "llm_grounded": false,
+    "passed": true
+  },
+  {
+    "id": "C15",
+    "type": "out_of_scope",
+    "question": "Tell me about stock levels.",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [
+      "catalogue.csv"
+    ],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C16",
+    "type": "out_of_scope",
+    "question": "What is the current World Cup final score?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C17",
+    "type": "out_of_scope",
+    "question": "Can you suggest a recipe for a perfect omelette?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C18",
+    "type": "out_of_scope",
+    "question": "Who is the current Prime Minister of France?",
+    "answer": "I'm sorry, I can't answer that.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C19",
+    "type": "out_of_scope",
+    "question": "How do you write a function in Python to find the maximum value in an array?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C20",
+    "type": "out_of_scope",
+    "question": "What are the main political parties in Brazil?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C21",
+    "type": "out_of_scope",
+    "question": "What is the latest book by J.K. Rowling?",
+    "answer": "I'm sorry, I can't answer that. It is outside what I can support from my documents.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  },
+  {
+    "id": "C22",
+    "type": "out_of_scope",
+    "question": "What is the most popular sport in Australia?",
+    "answer": "I'm sorry, I can't answer that.",
+    "refused": true,
+    "retrieved_sources": [],
+    "expected_sources": [],
+    "key_facts": [],
+    "facts_ratio": null,
+    "retrieval_ok": null,
+    "grounded": null,
+    "llm_grounded": null,
+    "passed": true
+  }
+]

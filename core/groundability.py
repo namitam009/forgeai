@@ -25,10 +25,11 @@ def check_topic(topic, index):
     if top_score < SCORE_THRESHOLD:
         status = "no"
         reason = f"best retrieval score {top_score:.2f} is below {SCORE_THRESHOLD}. " + reason
+    elif llm_status == "no" and top_score >= 0.55:
+        status = "partial"      # retrieval is decent, so do not trust a lone LLM "no"
+        reason = "LLM said no but retrieval score is high, kept as partial. " + reason
     else:
         status = llm_status
-
-    return {"topic": topic, "status": status, "top_score": round(top_score, 3), "reason": reason}
 
 
 def check_groundability(req, index):

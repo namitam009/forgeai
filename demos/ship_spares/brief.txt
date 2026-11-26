@@ -1,0 +1,1 @@
+I need an assistant for the procurement team that answers questions about ship spare parts: part prices, stock levels, lead times and supplier terms, and can calculate order totals.

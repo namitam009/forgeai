@@ -1,0 +1,220 @@
+[
+  {
+    "type": "answerable",
+    "question": "What happens if shore staff use work devices for personal activities?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Any unauthorized use of these devices will result in disciplinary action."
+    ],
+    "id": "C01"
+  },
+  {
+    "type": "answerable",
+    "question": "What will happen if someone retaliates against a person who reports harassment?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "immediate termination"
+    ],
+    "id": "C02"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the frequency at which the travel policy is reviewed?",
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "annually"
+    ],
+    "id": "C03"
+  },
+  {
+    "type": "answerable",
+    "question": "What are the working hours for shore staff?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "06:00 AM to 06:00 PM"
+    ],
+    "id": "C04"
+  },
+  {
+    "type": "answerable",
+    "question": "When are changes to the code of conduct communicated to shore staff?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "annually",
+      "communicated to all shore staff"
+    ],
+    "id": "C05"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the only approved flight class for business travel?",
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "Business class"
+    ],
+    "id": "C06"
+  },
+  {
+    "type": "answerable",
+    "question": "Who approves leave requests?",
+    "expected_sources": [
+      "leave_policy.txt"
+    ],
+    "key_facts": [
+      "Human Resources Department"
+    ],
+    "id": "C07"
+  },
+  {
+    "type": "answerable",
+    "question": "What are the possible disciplinary actions for non-compliance with the code of conduct?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "warning",
+      "suspension",
+      "termination of employment"
+    ],
+    "id": "C08"
+  },
+  {
+    "type": "answerable",
+    "question": "What happens if shore staff use company devices for unauthorized activities?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Any unauthorized use of these devices will result in disc"
+    ],
+    "id": "C09"
+  },
+  {
+    "type": "answerable",
+    "question": "What is the maximum hotel expense per night?",
+    "expected_sources": [
+      "travel_policy.txt"
+    ],
+    "key_facts": [
+      "Rs. 2000"
+    ],
+    "id": "C10"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the effective date of the leave policy?",
+    "expected_sources": [
+      "leave_policy.txt",
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "Policy Effective Date:",
+      "January 1, 2023"
+    ],
+    "id": "C11"
+  },
+  {
+    "type": "edge_multi_doc",
+    "question": "What is the consequence for unauthorized use of devices in the Code of Conduct and for claims that do not meet requirements in the Travel Policy?",
+    "expected_sources": [
+      "travel_policy.txt",
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "claims within this period may result in delays in reimbursement",
+      "Any unauthorized use of these devices will result in disciplinary action"
+    ],
+    "id": "C12"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "When do they review the code of conduct?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "annually",
+      "communicated to all shore staff"
+    ],
+    "id": "C13"
+  },
+  {
+    "type": "edge_ambiguous",
+    "question": "What happens if shore staff misuse company devices?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "key_facts": [
+      "may face legal action"
+    ],
+    "id": "C14"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Tell me about salary.",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C15"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the latest sports news?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C16"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do you make a perfect omelette?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C17"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "Who is the president of Brazil?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C18"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the difference between Python and Java?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C19"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the history of the United Nations?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C20"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the latest trending topic on TikTok?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C21"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What is the current World Cup soccer standings?",
+    "expected_sources": [],
+    "key_facts": [],
+    "id": "C22"
+  }
+]

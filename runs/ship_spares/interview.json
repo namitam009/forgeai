@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Who are the primary users of the assistant and what are their roles?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "What is the expected tone of the assistant's communication with the procurement team?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "What specific topics related to ship spare parts should the assistant be able to answer?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "What specific topics related to ship spare parts should the assistant not be able to answer or provide information on?",
+    "answer": "No preference, use your best judgement."
+  }
+]

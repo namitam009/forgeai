@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Who are the primary users of this assistant and what is their level of technical knowledge?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "Should the assistant maintain a formal or more casual tone when answering questions?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "What specific HR policies should the assistant cover in their answers (e.g., leave, code of conduct, travel expenses)?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "Should the assistant provide information about individual salary and bonus to shore staff?",
+    "answer": "No preference, use your best judgement."
+  },
+  {
+    "question": "Are there any other topics or information that the assistant should not provide or address?",
+    "answer": "No preference, use your best judgement."
+  }
+]

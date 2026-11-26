@@ -1,0 +1,28 @@
+[
+  {
+    "iteration": 0,
+    "score": 0.636,
+    "passed": 14,
+    "total": 22,
+    "accepted": true,
+    "by_type": {
+      "answerable": "4/10",
+      "edge_multi_doc": "1/2",
+      "edge_ambiguous": "1/2",
+      "out_of_scope": "8/8"
+    }
+  },
+  {
+    "iteration": 1,
+    "score": 0.545,
+    "passed": 12,
+    "total": 22,
+    "accepted": false,
+    "by_type": {
+      "answerable": "3/10",
+      "edge_multi_doc": "0/2",
+      "edge_ambiguous": "1/2",
+      "out_of_scope": "8/8"
+    }
+  }
+]

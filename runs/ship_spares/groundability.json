@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "part prices",
+    "status": "partial",
+    "top_score": 0.642,
+    "reason": "The excerpts contain information about part prices but do not provide a comprehensive overview of all part prices and their suppliers."
+  },
+  {
+    "topic": "stock levels",
+    "status": "no",
+    "top_score": 0.554,
+    "reason": "The excerpts do not contain any information related to stock levels."
+  },
+  {
+    "topic": "lead times",
+    "status": "partial",
+    "top_score": 0.525,
+    "reason": "The lead times are provided, but not all parts have lead times listed."
+  },
+  {
+    "topic": "supplier terms",
+    "status": "partial",
+    "top_score": 0.738,
+    "reason": "The excerpts contain payment and delivery terms but do not provide specific information about the supplier terms for the given parts."
+  },
+  {
+    "topic": "calculate order totals",
+    "status": "partial",
+    "top_score": 0.505,
+    "reason": "Not all aspects of calculating order totals are covered in the provided excerpts, such as the calculation of order totals for different scenarios (e.g., discounts, minimum order value, shipping costs, etc.)"
+  }
+]
